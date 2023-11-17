@@ -1,0 +1,14 @@
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\bin\Debug\net6.0\03_Raiding.exe
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\bin\Debug\net6.0\03_Raiding.deps.json
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\bin\Debug\net6.0\03_Raiding.runtimeconfig.json
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\bin\Debug\net6.0\03_Raiding.dll
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\bin\Debug\net6.0\03_Raiding.pdb
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\03_Raiding.GeneratedMSBuildEditorConfig.editorconfig
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\03_Raiding.AssemblyInfoInputs.cache
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\03_Raiding.AssemblyInfo.cs
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\03_Raiding.csproj.CoreCompileInputs.cache
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\03_Raiding.dll
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\refint\03_Raiding.dll
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\03_Raiding.pdb
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\03_Raiding.genruntimeconfig.cache
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\03_Raiding\obj\Debug\net6.0\ref\03_Raiding.dll
