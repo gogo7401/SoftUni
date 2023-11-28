@@ -1,0 +1,14 @@
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\bin\Debug\net6.0\04_Wild_Farm.exe
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\bin\Debug\net6.0\04_Wild_Farm.deps.json
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\bin\Debug\net6.0\04_Wild_Farm.runtimeconfig.json
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\bin\Debug\net6.0\04_Wild_Farm.dll
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\bin\Debug\net6.0\04_Wild_Farm.pdb
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\04_Wild_Farm.GeneratedMSBuildEditorConfig.editorconfig
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\04_Wild_Farm.AssemblyInfoInputs.cache
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\04_Wild_Farm.AssemblyInfo.cs
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\04_Wild_Farm.csproj.CoreCompileInputs.cache
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\04_Wild_Farm.dll
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\refint\04_Wild_Farm.dll
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\04_Wild_Farm.pdb
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\04_Wild_Farm.genruntimeconfig.cache
+D:\_SoftUni\Judge\Курс OOP - Exercises\Pregovor\Polymorphism - Exercise\04_Wild_Farm\obj\Debug\net6.0\ref\04_Wild_Farm.dll
