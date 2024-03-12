@@ -9,7 +9,7 @@ namespace _07._Append_Arrays
         static void Main(string[] args)
         {
             List<string> list = Console.ReadLine()
-                .Split('|')
+                .Split('|') 
                 .ToList();
             List<string> result = new List<string>();   
 
