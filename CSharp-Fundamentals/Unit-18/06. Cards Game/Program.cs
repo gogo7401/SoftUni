@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _06._Cards_Game
+namespace _06._Cards_Game 
 {
     internal class Program
     {
