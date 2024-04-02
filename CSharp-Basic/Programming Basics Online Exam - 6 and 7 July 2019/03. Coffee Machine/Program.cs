@@ -9,7 +9,7 @@ namespace _03._Coffee_Machine
             string drink = Console.ReadLine();
             string sugar = Console.ReadLine();
             int countDrink = int.Parse(Console.ReadLine());
-            double priceDrink = 0.00;
+            double priceDrink = 0.00; 
             double totalPrice = 0.00;
 
             switch (drink)
