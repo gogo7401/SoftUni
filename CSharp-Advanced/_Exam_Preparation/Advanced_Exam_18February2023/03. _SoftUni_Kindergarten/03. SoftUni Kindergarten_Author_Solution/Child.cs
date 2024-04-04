@@ -5,7 +5,7 @@ namespace SoftUniKindergarten
     public class Child
     {
         public Child(string firstName, string lastName, int age, string parentName, string contactNumber)
-        {
+        { 
             this.FirstName = firstName;
             this.LastName = lastName;
             this.Age = age;
