@@ -17,7 +17,7 @@ namespace _02._Pawn_Wars
             int size = 8;
 
             matrix = new char[size, size];
-
+ 
             // fill matrix
             for (int row = 0; row < size; row++)
             {
