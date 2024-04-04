@@ -9,7 +9,7 @@
                 .Select(int.Parse)
                 .ToArray();
             int matrixRow = matrixDimensions[0];
-            int matrixColumn = matrixDimensions[1];
+            int matrixColumn = matrixDimensions[1]; 
 
             char[,] gameField = new char[matrixRow, matrixColumn];
 
