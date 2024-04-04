@@ -9,7 +9,7 @@
 
             Dictionary<string, int> healingItems = new Dictionary<string, int>();
 
-            int sum = 0;
+            int sum = 0; 
             bool isAllEmpty = false;
 
             while (true)
