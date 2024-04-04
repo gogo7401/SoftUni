@@ -14,7 +14,7 @@ namespace SoftUniKindergarten
         public string Name { get; set; }
 
         public int Capacity { get; set; }
-
+ 
         public List<Child> Registry { get; set; }
 
         public int ChildrenCount => this.Registry.Count;
