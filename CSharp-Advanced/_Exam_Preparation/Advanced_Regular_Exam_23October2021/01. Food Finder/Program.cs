@@ -13,7 +13,7 @@ namespace _01._Food_Finder
                 .Select(char.Parse));
 
             var consonants = new Stack<char>(Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries) 
                 .Select(char.Parse));
 
 
