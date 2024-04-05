@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace _03._Rounding_Numbers
 {
-    internal class Program
+    internal class Program 
     {
         static void Main(string[] args)
         {
