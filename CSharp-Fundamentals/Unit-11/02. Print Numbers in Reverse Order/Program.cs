@@ -4,7 +4,7 @@ using System.Linq;
 namespace _02._Print_Numbers_in_Reverse_Order
 {
     internal class Program
-    {
+    { 
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
