@@ -7,7 +7,7 @@ function Solve(num1, num2) {
         }
         return result;
 
-    }
+    } 
 
     const division = factorial(num1) / factorial(num2);
 
