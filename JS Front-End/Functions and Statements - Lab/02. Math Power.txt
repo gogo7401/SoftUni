@@ -1,7 +1,7 @@
 function Solve(num, power) {
 console.log(Math.pow(num, power));
 }
-   
+    
 
 
 
