@@ -5,7 +5,7 @@ function Solve(arr) {
 
         console.log(`${index + 1}.${arr[index]}`);
     }
-
+ 
 }
 
 
