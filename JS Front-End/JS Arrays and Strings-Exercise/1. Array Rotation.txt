@@ -3,7 +3,7 @@ function Solve(arr, count) {
         arr.push(arr.shift()); 
     }
 
-    console.log(arr.join(' '));
+    console.log(arr.join(' ')); 
 }
 
 
