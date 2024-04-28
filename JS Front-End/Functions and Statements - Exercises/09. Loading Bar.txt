@@ -11,7 +11,7 @@ function Solve(percent) {
     } else {
         console.log(`${percent}% Complete!`);
         console.log(`[${arr.join('')}]`);
-    }
+    } 
 }
 
 
