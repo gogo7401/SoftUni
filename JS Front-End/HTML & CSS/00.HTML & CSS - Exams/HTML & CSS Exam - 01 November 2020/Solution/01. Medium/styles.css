@@ -1,0 +1,128 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url("");
+
+:root {
+    --ds-container-size: 946px;
+    --ds-top-container-size: 672px;
+    --ds-bottom-container-size: 672x;
+    --ds-bottom-left-container-size: 336x;
+    --ds-bottom-right-container-size: 336x;
+
+    --dc-background-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Helvetica';
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+body {
+    padding: 2em;
+    background-color: var(--dc-background-color);
+    background-image: url('./images/background.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.home-container {
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    max-width: var(--ds-container-size);
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container {
+    width: 100%;
+    font-family: 'Georgia';
+    /* min-width: var(--ds-top-container-size); */
+    /* border: 1px solid black; */
+}
+
+.top-container h2 {
+    font-size: 42px;
+    color: #292929;
+}
+
+.top-container p {
+    font-size: 20px;
+    color: #B3B3B3;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.bottom-container {
+    /* border: 1px solid black; */
+    display: flex;
+    min-width: var(--ds-bottom-container-size);
+    gap: 50px;
+}
+
+.bottom-container h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.bottom-left-container,
+.bottom-right-container {
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    width: 50%;
+}
+
+.bottom-left-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom-left-container a{
+    padding: 15px 50px;
+    color: white;
+    background-color: #03A87C;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.bottom-right-container span{
+    background-color: #CEFDE9;
+}
+
+.line {
+    margin-top: 45px;
+    width: 33%;
+    border-top: 1px solid #BBBBBB;
+}
+
+
+
