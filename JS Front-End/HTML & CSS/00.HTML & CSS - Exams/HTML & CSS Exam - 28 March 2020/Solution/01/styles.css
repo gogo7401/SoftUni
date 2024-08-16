@@ -1,0 +1,146 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --ds-container-size: 108em;
+    --ds-left-container-size: 39.5em;
+    --ds-right-container-size: 39.5em;
+
+    --dc-background-color: #F5F5F5;
+    --dc-containers-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+body {
+    padding: 2em;
+    background-color: var(--dc-background-color);
+    background-image: url('./images/background.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.home-container {
+    background-color: var(--dc-containers-color);
+    margin: 0 auto;
+    display: flex;
+    max-width: var(--ds-container-size);
+    gap: 2em;
+    flex-direction: column;
+    
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.63em;
+    font-weight: 500;
+}
+
+.bottom-container {
+    display: flex;
+}
+
+.left-container {
+    /* border: 2px solid black; */
+
+    /* max-width: var(--ds-left-container-size); */
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 39.4em;
+    margin-left: 13.13em;
+}
+
+.right-container {
+    /* border: 2px solid black; */
+    /* max-width: var(--ds-right-container-size); */
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 39.4em;
+    margin-bottom: 2em;
+}
+
+
+.right-container img {
+    object-fit: cover;
+    width: 39.4em;
+    height: 33.4em;
+
+}
+.icons-text img {
+    object-fit: cover;
+    width: 3em;
+    height: 3em;
+}
+
+.icons-text {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 1.25em;
+}
+
+.icon-title {
+    font-weight: bold;
+}
+
+
+
+.one {
+    font-size: 1.34em;
+    line-height: 1.4;
+    margin-top: 3.1em;
+    margin-bottom: 2em;
+}
+
+.third {
+margin-top: 1em;
+
+}
+
+/*
+text-transform: uppercase;
+
+
+input, label {
+    display:block;
+}
+
+
+.first-container .content::after {
+    content: "\a";
+    white-space: pre;
+}
+
+*/
