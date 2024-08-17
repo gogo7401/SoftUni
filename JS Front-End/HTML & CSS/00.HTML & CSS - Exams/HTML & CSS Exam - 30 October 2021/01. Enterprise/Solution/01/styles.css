@@ -1,0 +1,121 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url("");
+
+:root {
+    --ds-container-width-size: 1190px;
+    --ds-container-height-size: 490px;
+    --dc-background-color: #F6F8F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Helvetica ', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+body {
+    padding: 2em;
+    /* background-color: var(--dc-background-color); */
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.home-container {
+    background-color: var(--dc-background-color);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--ds-container-width-size);
+    min-height: var(--ds-container-height-size);
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 35px;
+    width: 50%;
+    margin-left: 65px;
+    margin-top: 80px;
+    
+}
+
+.left-container h6 {
+    font-size: 14px;
+    color: #2F3744;
+}
+
+.left-container h4 {
+    font-size: 42px;
+    font-weight: 500;
+    margin-top: -25px;
+    margin-bottom: -10px;
+    color: #2F3744;
+}
+
+.left-container .text{
+    max-width: 430px;
+    color: #666F78;
+}
+
+
+
+.right-container {
+    max-width: 50%;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+ .right-container img {
+    width: auto;
+    height: 400px;
+ }
+
+
+
+
+
+
+
+.btn{
+    display: inline-block;
+}
+
+.button-left{
+    background-color: #7573F6;
+    color: white;
+    padding: 18px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-right{
+    background-color: var(--dc-background-color);
+    color: #000000;
+    padding: 18px 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 15px;
+}
