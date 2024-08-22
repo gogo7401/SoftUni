@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font: 14px/1.15 'Inter', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+
+body{
+    padding: 2em;
+
+}
+
+img{
+    display: block;
+    width: 360px;
+    height: auto;
+    overflow: hidden;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1060px;
+    max-height: 610px;
+    background-color: #85DCFF;
+    display: flex;
+    gap: 90px;
+    padding: 4em 2em;
+    justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 550px;
+    padding: 2em;
+
+}
+
+.content h2{
+    display: block;
+    width: 395px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.content p{
+    display: block;
+    width: 540px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.media img{
+    box-shadow: 5px 5px 10px 0px #000000;
+    object-fit: cover;
+    
+}
+
+.btn{
+    display: inline-block;
+}
+
+.button-left{
+    background-color: #42AA59;
+    color: #000000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-left:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button-right{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 12px;
+}
