@@ -1,0 +1,242 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+:root {
+    --ds-site-container-size: 1920px;
+
+    --dc-background-color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.reset,
+.reset li,
+.reset ul li {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style-type: none;
+}
+
+
+body {
+    padding: 0em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.site-container {
+    width: var(--ds-site-container-size);
+    margin: 0 auto;
+}
+
+header {
+    width: 100vw;
+    background-image: url('./images/background.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+
+}
+
+header nav .logo {
+    width: 105px;
+    height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+header .info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 1020px;
+    max-height: 420px;
+    padding-left: 14rem;
+    margin-top: 10px;
+}
+
+header .header-info-title {
+    font-family: "PT Serif";
+    font-size: 68px;
+    font-weight: 400;
+}
+
+header .header-info-text {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+main {
+    width: 100vw;
+    height: 140vh;
+}
+
+main .main-first {
+    height: 60vh;
+    display: flex;
+    color: #37282B;
+}
+
+main .main-first-items {
+    display: flex;
+    padding: 164px 220px 130px 220px;
+    gap: 60px;
+}
+
+main .main-first-items-title {
+    font-family: "PT Serif";
+    font-size: 64px;
+    font-weight: 100;
+}
+
+main .main-first-items-desc {
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+main .main-first-items-btn {
+    color: #B0825C;
+    border: 2px solid #B0825C;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
+
+main .divider {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+main .main-second {
+    width: 100vw;
+    height: 80vh;
+}
+
+main .main-second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 67px 260px 67px 260px;
+}
+
+
+main .main-second-icons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+main .main-second-icons .icons {
+    width: 192px;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    padding: 20px 20px;
+    margin: 50px auto;
+}
+
+main .main-second-title {
+    color: #B0825C;
+    font-size: 50px;
+}
+
+main .main-second-text {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+footer {
+    width: 100vw;
+    height: 65vh;
+    background-color: #171720;
+    color: white;
+}
+
+footer .divider {
+    border-bottom: 1px solid #3A3A41;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .footer-first-items {
+    padding-left: 220px;
+    padding-top: 65px;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+
+footer .footer-second {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 220px;
+}
+
+footer .footer-first-items-one-text,
+footer .footer-first-items-links {
+    color: #A4A69B;
+    text-transform: uppercase;
+    line-height: 3;
+}
+
+footer .footer-first-items-title {
+    font-family: "PT Serif";
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
