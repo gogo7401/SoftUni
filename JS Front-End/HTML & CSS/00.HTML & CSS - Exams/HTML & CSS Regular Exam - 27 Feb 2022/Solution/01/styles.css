@@ -1,0 +1,125 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    --ds-container-size: 905px;
+    --dc-background-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'PT Serif ', serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+body {
+    padding: 2.625em;
+    background-color: var(--dc-background-color);
+    background-image: url('./images/background.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.home-container {
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    max-width: var(--ds-container-size);
+    box-shadow: 0px 0px 13px -1px rgba(0, 0, 0, 0.83);
+    
+}
+
+.left-container {
+    width: 45%;
+    background-image: url("image/image1.png");
+    margin: 23px 23px;
+}
+
+.left-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px dotted green;
+}
+
+.left-container .serves {
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container .receipt {
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.left-container .receipt span {
+    color: #318900;
+    font-weight: 600;
+}
+
+.left-container .action {
+    font-size: 17px;
+    margin-bottom: 42px;
+}
+
+.left-container .ingredients table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #008000;
+}
+
+
+.left-container .ingredients table th,
+.left-container .ingredients table td {
+border: 1px solid #008000;
+}
+
+.left-container .ingredients th,
+.left-container .ingredients td {
+    padding: 0px 15px;
+    text-align: center;
+}
+
+
+.right-container {
+    width: 45%;
+}
+
+
+.right-container img {
+    object-fit: cover;
+    width: 430px;
+    height: 390px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+
+}
