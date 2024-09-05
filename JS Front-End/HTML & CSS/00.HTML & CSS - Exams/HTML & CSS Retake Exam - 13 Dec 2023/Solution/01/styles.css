@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: "Agbalumo";
+    font-size: 11px;
+    line-height:150%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+
+body{
+    padding: 2em;
+
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 840px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: #D5EBEA;
+    border: 3px solid #1A1A1A;
+    
+}
+
+header{
+    text-align: center;
+}
+
+header h2{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+header h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header hr{
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    background-color: white;
+    margin-left: -20px;
+    margin-right: -2em;
+}
+
+.media{
+    width: 290px;
+    height: 320px;
+    align-items: center;
+    padding-top: 10px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.content{
+    display: block;
+    width: 475px;
+    height: 280;
+    line-height: 150%;
+    font-size: 17px;
+}
+
+.mapTitle{
+text-align: center;
+padding-top: 18px;
+}
+
+.mapContent{
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+.media img {
+    padding: 0px 10px;
+
+}
+
+.content p{
+    text-indent: 31px;
+    
+}
+
+.content .firstParagraph{
+    margin-top: 50px;
+}
+
+.content .secondParagraph{
+    margin-top: 18px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 8px 65px;
+    margin-left: -2px;
+    margin-top: 15px;
+    
+}
+
+footer{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+footer p, span{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+footer span{
+    font-weight: 700;
+}
+
+footer p{
+    font-weight: 300;
+}

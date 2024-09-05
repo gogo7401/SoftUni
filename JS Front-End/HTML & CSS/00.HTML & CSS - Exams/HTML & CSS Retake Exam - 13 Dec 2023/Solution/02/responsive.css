@@ -1,0 +1,110 @@
+@media (max-width: 600px) {
+
+    body {
+        width: 110%;
+    }
+
+    .placeholder {
+        width: 110%;
+    }
+
+    .tm-header-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 50px;
+        margin-left: -130px;
+    }
+
+    .tm-header {
+        position: static;
+    }
+
+    .tm-site-logo {
+
+        width: 64px;
+
+    }
+
+    .tm-site-title {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 5px;
+        padding-left: 30px;
+    }
+
+    .tm-section-title {
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 80%;
+        margin-left: 55px;
+    }
+
+    body>main>section.tm-paging-links>nav>ul {
+        margin-left: -50px;
+    }
+
+    .tm-welcome-section {
+        margin: 60px 6px;
+        max-width: 544px;
+    }
+
+    body>main>header>p {
+        font-size: 1.5rem;
+    }
+
+    body>main>section.tm-paging-links>nav>ul {
+
+        font-size: 1.8rem;
+    }
+
+    .tm-cta-section {
+        margin: 0 auto;
+        width: 600px;
+        display: flex;
+    }
+
+    .tm-gallery-page {
+        margin: 0 0px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img-fluid {
+        max-width: 400px;
+        height: auto;
+    }
+
+    .tm-gallery-title {
+        font-size: 2.2rem;
+        margin-left: 64px;
+
+    }
+
+    .tm-gallery-item {
+        max-width: 420px;
+    }
+
+    .tm-gallery-description {
+        font-size: 1.2rem;
+    }
+
+    body>main>section.tm-cta-section.tm-section.tm-container-inner>article>article:nth-child(1)>figure>img {
+        margin-left: -63px;
+        width: 100%;
+        margin-top: -70px;
+    }
+
+    body>main>section.tm-cta-section.tm-section.tm-container-inner>article>article:nth-child(2)>article>p {
+        margin-left: 4rem;
+        font-size: 1.4rem;
+        /* align-content: center; */
+        width: 84%;
+    }
+
+    .parallax-window {
+        width: 100%;
+    }
+}
