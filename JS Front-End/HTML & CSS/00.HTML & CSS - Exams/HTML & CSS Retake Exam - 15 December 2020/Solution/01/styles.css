@@ -1,0 +1,133 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --ds-container-size: 864px;
+    --ds-left-container-size: 316px;
+    --ds-right-container-size: 316px;
+
+    --dc-background-color: #F5F5F5;
+    --dc-containers-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Poppins';
+    font-size: 8px;
+    line-height: 1.4;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+body {
+    padding: 2em;
+    background-color: var(--dc-background-color);
+    background-image: url('./images/background.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.home-container {
+    background-color: var(--dc-containers-color);
+    margin: 0 auto;
+    display: flex;
+    max-width: var(--ds-container-size);
+    gap: 15px;
+    
+}
+
+.left-container {
+    /* border: 2px solid black; */
+
+    max-width: var(--ds-left-container-size);
+
+    flex-grow: 1;
+    flex-basis: 315px;
+    margin-left: 105px;
+}
+
+.right-container {
+    /* border: 2px solid black; */
+    max-width: var(--ds-right-container-size);
+    flex-grow: 1;
+    flex-basis: 315px;
+}
+
+
+.right-container img {
+    object-fit: cover;
+    width: 315px;
+    height: 270px;
+
+}
+.icons-text img {
+    object-fit: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.icons-text {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.icon-title {
+    font-weight: bold;
+}
+
+
+
+.one {
+    font-family: 'Montserrat';
+    font-size: 11px;
+    line-height: 1.4;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.third {
+margin-top: 8px;
+
+}
+
+/*
+text-transform: uppercase;
+
+
+input, label {
+    display:block;
+}
+
+
+.first-container .content::after {
+    content: "\a";
+    white-space: pre;
+}
+
+*/
