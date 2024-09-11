@@ -1,0 +1,256 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap");
+
+:root {
+    --ds-container-size: 1920px;
+    --ds-left-container-size: 864px;
+    --ds-right-container-size: 864px;
+
+    --dc-background-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+body {
+    padding: 0em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+header {
+    height: 70vh;
+    background-image: url('./images/background.jpg');
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main article {
+    height: 50vh;
+}
+
+footer {
+    height: 70px;
+}
+
+.site-container {
+
+    margin: 0 auto;
+    display: flex;
+    max-width: var(--ds-container-size);
+    flex-direction: column;
+}
+
+
+.site-nav {
+    display: flex;
+    padding: 30px 280px;
+    justify-content: space-between;
+}
+
+.site-nav .nav {
+    font-weight: bold;
+}
+
+.site-nav .nav ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.site-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-title .site-text {
+    text-align: center;
+}
+
+.site-title .site-text .title {
+    margin-bottom: 50px;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.site-title .site-text .title-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #100000;
+}
+
+button {
+    all: unset;
+    background-color: #e7eef0;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #686666;
+    margin-top: 40px;
+}
+
+
+
+main .catalog-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #60ACC1;
+}
+
+main .catalog-and-text .catalog-and-text-boxes {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-around;
+}
+
+main .catalog-and-text .catalog-and-text-boxes .box {
+    display: flex;
+    width: 40%;
+    background-color: #60ACC1;
+    box-shadow: 0px 0px 55px -6px rgba(0, 0, 0, 1);
+}
+
+main .catalog-and-text .catalog-and-text-boxes .box img {
+    flex: 1 0 50%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: left top;
+
+}
+
+.box-title {
+    text-align: center;
+}
+
+.box-text {
+    padding: 72px 50px 72px 36px;
+    background-color: white;
+    margin-right: 10px;
+    flex: 1 0 40%;
+}
+
+.catalog-and-text-title {
+    padding-top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.catalog-and-text-description {
+    margin-bottom: 20px;
+}
+
+.items img {
+    height: 160px;
+    width: auto;
+    object-fit: cover;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.items .first,
+.items .second,
+.items .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 30%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 98px;
+}
+
+.items .first h4,
+.items .second h4,
+.items .third h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+
+.media img {
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+}
+
+.catalog-and-images-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catalog-and-images-boxes img{
+    width: 438px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.only-image-box {
+    width: 438px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 0px 55px -6px rgba(0, 0, 0, 1);
+}
+
+.about {
+    text-align: center;
+    height: 35vh;
+}
+
+
+footer {
+    background-color: black;
+    height: 68px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.about .text {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0px 435px;
+    font-size: 1.2rem;
+}
+
+.about h3 {
+    margin-top: 60px;
+}

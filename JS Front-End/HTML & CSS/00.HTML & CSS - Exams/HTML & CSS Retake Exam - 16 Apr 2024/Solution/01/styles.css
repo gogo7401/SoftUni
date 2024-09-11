@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 24px/1.5 "Kode Mono", monospace;
+
+}
+
+body {
+    padding: 1rem;
+    background-color: #C1BDBA;
+}
+
+
+article {
+    max-width: 31.25rem;
+    margin: 2.5rem auto;
+
+    border: 0.21rem solid #24333C;
+    border-radius: 0.21rem;
+    color: white;
+    background-color: #24333C;
+    box-shadow: 0 0 0.42rem 0.21rem #999A9A;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 27rem;
+    max-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.1rem;
+    margin-bottom: 4.2rem;
+}
+
+.top {
+    display: flex;
+
+    color: inherit;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.bottom a {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: inherit;
+    background-color: #1AB188;
+    width: 100%;
+    padding: 0.73em 4.25em;
+    text-decoration: none;
+}
+
+#signUp {
+    display: inline-block;
+    background-color: #1AB188;
+    max-width: 50%;
+    height: auto;
+    padding: 25px 110px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#logIn {
+    background-color: #435359;
+    max-width: 50%;
+    padding: 25px 118px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#logIn:hover{
+    background-color: #179A77;
+}
+
+.middle h3 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 52px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .byRow {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+form input {
+    font: inherit;
+    font-weight: 500;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #24333C;
+    border: 1px solid #A0B3B0;
+}
+
+.input-placeholder {
+    position: relative;
+  }
+  .input-placeholder input {
+    padding: 2px;
+  }
+
+  .input-placeholder input:valid + .placeholderFN,
+  .input-placeholder input:valid + .placeholderLN,
+  .input-placeholder input:valid + .placeholderEmail,
+  .input-placeholder input:valid + .placeholderPassword,
+  .input-placeholder input:focus + .placeholderFN,
+  .input-placeholder input:focus + .placeholderLN,
+  .input-placeholder input:focus + .placeholderEmail,
+  .input-placeholder input:focus + .placeholderPassword
+  
+  {
+    display: none;
+  }
+  .placeholderFN {
+    position: absolute;
+    pointer-events: none;
+    top: 2px;
+    bottom: 2px;
+    left: 6px;
+    margin: auto;
+    color: #929998;
+  }
+
+  .placeholderLN {
+    position: absolute;
+    pointer-events: none;
+    top: 2px;
+    bottom: 2px;
+    left: 6px;
+    margin: auto;
+    color: #929998;
+  }
+
+  .placeholderEmail {
+    position: absolute;
+    pointer-events: none;
+    top: 2px;
+    bottom: 2px;
+    left: 6px;
+    margin: auto;
+    color: #929998;
+  }
+
+  .placeholderPassword {
+    position: absolute;
+    pointer-events: none;
+    top: 2px;
+    bottom: 2px;
+    left: 6px;
+    margin: auto;
+    color: #929998;
+  }
+
+
+  .placeholderFN span,
+  .placeholderLN span,
+  .placeholderEmail span,
+  .placeholderPassword span {
+    color: #1AB188;
+  }
