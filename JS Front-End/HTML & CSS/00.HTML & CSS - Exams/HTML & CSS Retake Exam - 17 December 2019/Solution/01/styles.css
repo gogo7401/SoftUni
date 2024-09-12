@@ -1,0 +1,125 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --ds-container-size: 1440px;
+    --ds-left-container-size: 60%;
+    --ds-right-container-size: 40%;
+    --ds-left-right-containers-height: 885px;
+    --dc-background-color: #FFD9B0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+body {
+    padding: 2em;
+    background-color: var(--dc-background-color);
+    background-image: url('./images/background.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.home-container {
+    margin: 0 auto;
+    display: flex;
+    width: var(--ds-container-size);
+    background-color: var(--dc-background-color);
+}
+
+.left-container {
+    background-color: #111111;
+    width: var(--ds-left-container-size);
+    /* border: 1px solid black; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.right-container {
+    background-color: #111111;
+    width: var(--ds-right-container-size);
+    /* border: 1px solid black; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 4.72rem;
+    padding-right: 4.72rem;
+    padding-top: 100px;
+}
+
+.right-container h2 {
+    font-size: 1.35em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.right-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container a {
+    color: white;
+    background-color: #EDB77D;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.right-container .button {
+    margin-top: 75px;
+}
+
+form input {
+    height: 35px;
+    margin-top: 45px;
+    background-color: #111111;
+    border: none;
+    border-bottom: 1px solid #444444;
+    color: #91A39F;
+
+}
+
+form ::placeholder {
+    font-size: 2em;
+}
+
+
+.left-container img {
+    object-fit: cover;
+    width: 840px;
+    height: var(--ds-left-right-containers-height);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
