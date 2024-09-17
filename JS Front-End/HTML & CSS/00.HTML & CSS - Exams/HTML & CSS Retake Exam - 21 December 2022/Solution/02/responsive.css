@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+
+    html>body {
+        font-size: 9px;
+    }
+
+    main .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.gallery>article>div,
+    section.blog>div>h4>span,
+    section.blog>div>a,
+    div.div-header,
+    section.blog>article>img,
+    section.magazine>div>a,
+    section.options>article>a {
+        display: none;
+    }
+
+
+
+    section.options {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    section.magazine article {
+        flex-direction: column;
+
+        width: auto;
+        align-items: center;
+
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog .blog-title h4 {
+        font-size: 24px;
+    }
+
+    section.magazine>div>h4 {
+        font-size: 18px;
+    }
+
+    article #about-blog {
+        background: white;
+        width: auto;
+        height: auto;
+        margin-top: 45px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    section.magazine>article>.magazine-info {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    section.magazine>article>.magazine-info img {
+        width: 100%;
+        height: 160px;
+    }
+
+    .magazine-info>h2 {
+        font-size: 24px;
+    }
+
+    .magazine-info>h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    section.options article {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 45px;
+    }
+
+    article #about-blog p {
+        font-size: 8px;
+        margin: 0px 35px 20px 35px;
+    }
+
+    article #about-blog h3 {
+        margin: 0px 20px 20px 36px;
+        font-size: 15px;
+    }
+
+    article #about-blog button {
+        font-size: 10px;
+        margin: 20px 0 20px 30px;
+    }
+
+    header .logo-center {
+        padding-top: 15px;
+    }
+
+    header  .button-header {
+        margin: 40px 0 40px 0;
+        font-size: 8px;
+    }
+
+    section.options article h4 {
+        padding-top: 5px;
+        font-size: 16px;
+    }
+
+}
